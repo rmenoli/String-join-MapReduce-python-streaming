@@ -5,7 +5,7 @@ Exercise project for the course "Introduction of Big Data Management" - Univeris
 ## Abstract and possibile application
 Let's assume we want compare the facebook's posts of two people in order to understand if they talks about same topics and which topics they share. A way to do this analyisis is compare pair-whise their post and compute for each pair the  Jaccard similarity coefficient based on bigrams in the posts. The similarity between people could be seen as the avarage of the Jaccard similarity coefficient. The most common post could be seen as the pair with less Jaccard similarity coefficient. If the number of posts is huge (or we want do comparison between many people) we could use MapReduce framework to speed up the computation. This repository provides the a quick guide to compare two files containing sentences using MapReduce framworks and python streaming.
 
-## Algoithm
+## Algorithm
 Let's collocate in this scenario: there are two distinct file strucured like s1_f.txt and s2_f.txt. Our aim is to compute the Jaccard similarity coefficent based on bigrams if letter between all the pairs of the two files.
 
 The code follows the idea proposed by Elsayed, Lin and Oard 2008. The main idea is performe two MapReduce steps:
