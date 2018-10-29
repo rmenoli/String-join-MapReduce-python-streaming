@@ -14,4 +14,6 @@ The code follows the idea proposed by Elsayed, Lin and Oard 2008. The main idea 
 
 2. Pairwise Similarity: create pairs of sentences that share the same n-grams, find how many n-grams each pair shares and compute the similarity.
 
+An example of result can be seen in out_fin_fin.txt
+
 For further information read the paper in "pdf_folder".
