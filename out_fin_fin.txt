@@ -1,0 +1,12 @@
+('19th-century_venezuelan_people', '19th-century_venezuelan_peaple')	0.12903225806451613
+('churches_in_kenton_county,_kentucky', 'churchs_in_kenton_county,_kentucky')	0.08571428571428574
+('emporia_state_university_navigational_boxes', 'emporia_state_universtiy_navigational_boxes')	0.1333333333333333
+('festivals_in_australia', 'festivals_in_austrailia')	0.13043478260869568
+('history_of_kanagawa_prefecture', 'hstory_of_kanagawa_prefecture')	0.09999999999999998
+('music_festival_templates_by_festival_type', 'music_festival_tempaltes_by_festival_type')	0.13953488372093026
+('political_advocacy_groups_in_italy', 'polical_advocacy_groups_in_italy')	0.06060606060606055
+('radio_control', 'radio_controll')	0.07692307692307687
+('schools_in_the_central_african_republic', 'schools_in_the_central_african_repblic')	0.07692307692307687
+('transportation_in_harrison_county,_indiana', 'transporation_in_harrison_county,_indiana')	0.0714285714285714
+('wikipedia_a-class_vital_articles_by_level', 'wikipedia_a-class_vital_articles_by_levle')	0.09523809523809523
+('wikipedia_articles_incorporating_a_citation_from_the_american_cyclopaedia_with_an_unnamed_parameter', 'wikipedia_articles_incorporating_a_citation_frome_the_american_cyclopaedia_with_an_unnamed_parameter')	0.030000000000000027
