@@ -17,7 +17,7 @@ The computation is performed in two MapReduce steps:
 
 2. Pairwise Similarity: create pairs of sentences that share the same n-grams, find how many n-grams each pair shares and compute the similarity.
 
-Elsayed, Lin and Oard 2008 assumes that all sentences are in the same file. They consider th following similarity measure: $sim(d_{i},d_{j})=\sum_{t\in V}w_{t,i}\cdot w_{t,j}$ where $sim(d_{i},d_{j})$ is the similarity between sentences $d_{i}$ and $d_{j}$, $V$ is the vocabulary set and $w_{t}$ is the weight which indicate the importance of each term t. If a term is not in the sentences the weight of the term for that document is 0.
+Elsayed, Lin and Oard 2008 assumes that all sentences are in the same file. They consider th following similarity measure: `$$ax^2 + bx + c = 0$$` "$sim(d_{i},d_{j})=\sum_{t\in V}w_{t,i}\cdot w_{t,j}$" where $sim(d_{i},d_{j})$ is the similarity between sentences $d_{i}$ and $d_{j}$, $V$ is the vocabulary set and $w_{t}$ is the weight which indicate the importance of each term t. If a term is not in the sentences the weight of the term for that document is 0.
 
 In order to complete the task of the assignment (i.e. finding the similar pairs between the two documents and use as similarity distance the Jaccard similarity), I change a little the idea of Elsayed, Lin and Oard 2008. My solution performs two MapReduce job (indexing and pairwise similarity)
 
